@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="users">
+            <header>
+                <div class="content">
+                    <div class="img"></div>
+                    <div class="details">
+                        <span></span>
+                    </div>
+                </div>
+                <a class="logout"><img src="image/logout.png"></a>
+            </header>
+            <div class="search">
+                <button><i class="fa fa-search"></i></button>
+                <input type="text" placeholder="Search or start new chat">
+            </div>
+            <div class="users-list">
+                <div class="list">
+                    <p>No Member is found</p>
+                </div>
+
+               <!-- <a id="2">
+                   <div class="content">
+                       <img src="image/PHOTO.JPG">
+                       <div class="details">
+                           <span>selvan</span>
+                           <p>Active</p>
+                       </div>
+                   </div>
+                   <div class="status"><i class="fa fa-circle"></i></div>
+               </a> -->
+
+            </div>
+        </div>
+
+
+
+        <div class="chat-area">
+            <div class="blank-area">
+                <h1>Hello,</h1>
+            </div>
+            <div class="contant-area">
+                <header>
+                    <div class="img"></div>
+                    <div class="details">
+                        <span></span>
+                        <p></p>
+                    </div>
+                </header>
+                <div class="chat-box">
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Hi</p>
+                        </div>
+                    </div>
+
+                    <div class="chat incoming">
+                        <div class="details">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="typing-area">
+                    <input type="text" placeholder="Type a message">
+                    <div class="button"><i class="fa fa-send-o"></i></div>
+                    <!-- <button><i class="fa fa-send-o"></i></button> -->
+                </form>
+            </div>
+        </div>
+
+    </div>
+   <script src="chat.js"></script>
+</body>
+
+</html>
